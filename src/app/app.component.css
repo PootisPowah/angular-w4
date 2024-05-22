@@ -1,0 +1,223 @@
+.horizontal-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.646);
+    margin: auto;
+    position: absolute;
+    top: 10;
+    right: 0;
+    bottom: 10;
+    left: 0;
+
+
+
+}
+
+
+/* .horizontal-top-content {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 3em;
+    font-weight: bolder;
+} */
+
+.inner {
+    height: 55px;
+    width: 55px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.horizontal-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 85px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.646);
+    margin: auto;
+    position: absolute;
+    top: 10;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+.vertical-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.646);
+    height: 250px;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 5;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+
+
+.vertical-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.646);
+    height: 250px;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 5;
+
+}
+
+
+.vertical-right-content {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.button {
+    background-color: pink;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.buttonSpecial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    top: 5px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 0, 43);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#default {
+    background-color: rgb(0, 0, 0);
+}
+
+#red-horiontal {
+    background-color: rgb(0, 0, 0);
+}
+
+#yellow-horiontal {
+    background: rgb(0, 0, 0);
+}
+
+#green-horiontal {
+    background: rgb(0, 0, 0);
+}
+
+#red-vertical {
+    background-color: rgb(0, 0, 0);
+}
+
+#yellow-vertical {
+    background: rgb(0, 0, 0);
+}
+
+#green-vertical {
+    background: rgb(0, 0, 0);
+}
+
+
+
+.specialButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 5px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.crossBtnTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    right: 25%;
+}
+
+.crossBtnBottom {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+    right: 0px;
+}
+
+.crossBtnLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 290px;
+    bottom: 0px;
+    left: 70px;
+}
+
+.crossBtnRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 290px;
+    right: 70px;
+}
+
+.message {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
